@@ -20,7 +20,7 @@ jobs:
           pip install midist
       - name: Run specific command
         run: |
-            python midist https://amsc.static.jp
+            midist https://amsc.static.jp
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
